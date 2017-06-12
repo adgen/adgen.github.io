@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AdGen</title>
+    <link rel="stylesheet" href="adgen.css">
+</head>
+<body>
+<div class="controls">
+    <input type="file" id="file">
+    <input type="text" placeholder="Старая цена" title="Старая цена" id="oldPriceText">
+    <input type="text" placeholder="Новая цена" title="Новая цена" id="newPriceText">
+    <div id="select" class="button">Select</div>
+    <div id="button" class="button">Download</div>
+</div>
+
+<div id="adWrapper">
+    <div id="label">
+        <div id="brands">BRANDS</div>
+        <div id="outlet">OUTLET</div>
+        <sub id="sqr">2</sub>
+    </div>
+    <div id="srcImage"></div>
+
+    <div id="discountBlock">50%</div>
+    <div id="tagBlock">
+        <div id="tag">
+            <div id="oldPrice">5000</div>
+            <div id="newPrice">2500</div>
+        </div>
+        <div id="pin"></div>
+    </div>
+</div>
+<br><br>
+<div id="canvasContainer"></div>
+<script src="html2canvas.js"></script>
+<script src="adgen.js"></script>
+</body>
+</html>
