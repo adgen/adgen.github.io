@@ -1,10 +1,27 @@
+
+.controls{
+    width: 35%;
+    border: 1px solid;
+    border-radius: 20px;
+    padding-left: 1%;
+    float: left;
+    margin-right: 1%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+h1{
+    font-family: Impact, serif;
+    font-size: 20px;
+}
+
 .button{
-    width: 200px;
+    width: 90%;
     height: 50px;
     background-color: black;
     border-radius: 20px;
     text-align: center;
-    font-size: 41px;
+    font-size: 25px;
     border: 1px solid;
     margin-bottom: 10px;
     color: white;
@@ -71,7 +88,7 @@
 }
 
 #tag{
-    background-image: url("priceTag.png");
+    background-image: url('priceTag.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 500px;
@@ -83,7 +100,7 @@
 }
 
 #pin{
-    background-image: url("pin.png");
+    background-image: url('pin.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 227px;
@@ -112,7 +129,7 @@ input{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    width: 15%;
+    width: 90%;
     padding: 8px;
     border-radius: 6px;
     -webkit-border-radius:6px;
