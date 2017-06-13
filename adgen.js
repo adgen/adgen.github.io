@@ -30,7 +30,7 @@ window.onload = () => {
             html2canvas(document.getElementById('adWrapper'), {
                 onrendered: (canvas) => {
                     document.getElementById('canvasContainer').appendChild(canvas);
-                    //document.body.removeChild(adWrapper);
+                    document.body.removeChild(adWrapper);
                 },
                 width: 1920,
                 height: 1080
