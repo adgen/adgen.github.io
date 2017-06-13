@@ -52,8 +52,7 @@ h1{
 }
 
 #label{
-    position: relativ;
-    left: -200px;
+    width: 20%;
     display: flex;
     justify-content: center;
     font-family: Impact, serif;
